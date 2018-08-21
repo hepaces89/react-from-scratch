@@ -7,6 +7,8 @@ class App extends Component{
         return (
             <div className="App">
                 <h1>Hello, World!</h1>
+                <p>Hi Mom, this is a test!</p>
+                <p>It is now {(new Date()).toString()}</p>
             </div>
         );
     }
